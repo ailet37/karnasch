@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Karnasch</title>
+	
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	
+</head>
+<body>
+
+<!--header-->
+<div class="page-wrapper">
+<header class="main-header">
+	<div class="container">
+		<div class="bl">
+		<!--top-menu-->
+			<div class="main-header__top-menu">
+				<form action="" method="get" class="navbar-form pull-right">
+					<input name="search_paths[]" type="hidden" value="" />
+			    	<div class="input-group">
+			    		<input type="text" class="form-control" name="query" value="">
+			    		<div class="input-group-btn">
+			        		<button class="btn btn-default" name="submit" type="submit"><i class="fa fa-search"></i></button>
+			    		</div>
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav pull-right hidden-xs">
+						<li><a href="">Главная</a></li>
+						<li class="dropdown"><a href="">О компании</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Сверление</a></li>
+								<li><a href="#">Сверление</a></li>
+							</ul>
+						</li>
+						<li><a href="">Новости</a></li>
+						<li><a href="">Выставки</a></li>
+				</ul>
+			</div>
+		</div>
+
+<!--main-menu-->
+		
+		<div class="bl">
+			<div class="main-header__main-menu">
+				<div class="navbar">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+						    <span class="sr-only">Toggle navigation</span>
+						    <span class="icon-bar"></span>
+						    <span class="icon-bar"></span>
+						    <span class="icon-bar"></span>
+						</button>
+						
+							<a href="/" class="" title="Karnasch Professional Tools GmbH"><img src="../img/logo-karnasch.png"></a>
+						
+					</div>
+					
+					<div class="navbar-collapse collapse " id="main-nav">
+						<ul class="nav navbar-nav navbar-right main-menu__menu">
+							<li class=""><a href="">Каталог продукции</a></li>
+							<li class="mega-dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Обзор продукции</a>
+								<div class="dropdown-menu menu-fullwidth">
+    								<div class="show-grid">
+    									<a href="#" class="col-xs-12 col-sm-3 col-md-2 " title="Корончатые сверла"><img src="../img/high.jpg" alt="Корончатые сверла" class="img-responsive">Корончатые сверла</a>
+
+    									<a href="#" class="col-xs-12 col-sm-3 col-md-2 " title="Корончатые сверла"><img src="../img/high.jpg" alt="Корончатые сверла" class="img-responsive">Корончатые сверла</a>
+
+    									<a href="#" class="col-xs-12 col-sm-3 col-md-2 " title="Корончатые сверла"><img src="../img/high.jpg" alt="Корончатые сверла" class="img-responsive">Корончатые сверла</a>
+
+    									<a href="#" class="col-xs-12 col-sm-3 col-md-2 " title="Корончатые сверла"><img src="../img/high.jpg" alt="Корончатые сверла" class="img-responsive">Корончатые сверла</a>
+
+    									<a href="#" class="col-xs-12 col-sm-3 col-md-2 " title="Корончатые сверла"><img src="../img/high.jpg" alt="Корончатые сверла" class="img-responsive">Корончатые сверла</a>
+
+    									<a href="#" class="col-xs-12 col-sm-3 col-md-2 " title="Корончатые сверла"><img src="../img/high.jpg" alt="Корончатые сверла" class="img-responsive">Корончатые сверла</a>
+
+    									<a href="#" class="col-xs-12 col-sm-3 col-md-2 " title="Корончатые сверла"><img src="../img/high.jpg" alt="Корончатые сверла" class="img-responsive">Корончатые сверла</a>
+
+    								</div>
+    							</div>
+
+
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Применение
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Сверление</a></li>
+									<li><a href="#">Фрезерование</a></li>
+						
+								</ul>
+							</li>
+							<li class=""><a href="">Информация</a></li>
+							<li class=""><a href="">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!--teaser-->
+
+<div class="container">
+		
+	
+    <!--breadcrumb-->
+	
+	<nav class="nav-breadcrumb">
+		<ul id="breadcrumb">
+			<li class="">
+				<a href="http://www.karnasch.tools/"  class=""><span class="fa fa-home"></span></a>
+			</li>
+			<li class="active">
+				<a href="http://www.karnasch.tools/en/products/" class="active"><span class="fa fa-angle-right"></span> Каталог продукции</a>
+			</li>
+			
+		</ul>
+	</nav>
+		
+   <!--main-content-->	
+	<div class="main-content">
+	  	<div class="row">
+	  		<div id="pg-content" class="col-xs-12 col-sm-12 col-md-9">
+		    	<h3 class="product-overview__title">Фрезерование</h3>
+		    	
+		    	
+				<section class="catalogue-slider hidden-xs">
+					<img src="../img/temp/20.1125.jpg" alt="" class="img-responsive">
+				</section>
+
+				<div class="row catalogue">
+
+					<div class="col-xs-6 col-sm-4 catalogue__block">
+						<div class="catalogue__item click ">
+							<div class="catalogue__img ">
+								<img src="../img/temp/product-teaser2.jpg" alt="High-Speed End Mills" class="responsive-catalogue-image">
+				            	<a title="Micro tools" href="http://vk.com" class="catalogue__overlay"></a>
+				        	</div>
+					        <div class="catalogue__item--name">Micro tools</div>
+					        <div class="catalogue__item--arrow"><i class="fa fa-chevron-down"></i></div>
+			    		</div>
+			    	</div>
+
+			    	<div class="col-xs-6 col-sm-4 catalogue__block">
+						<div class="catalogue__item click">
+							<div class="catalogue__img">
+								<img src="../img/temp/product-teaser2.jpg" alt="High-Speed End Mills" class="responsive-catalogue-image">
+				            	<a title="Micro tools" href="http://vk.com" class="catalogue__overlay"></a>
+				        	</div>
+					        <div class="catalogue__item--name">Micro tools</div>
+					        <div class="catalogue__item--arrow"><i class="fa fa-chevron-down"></i></div>
+			    		</div>
+			    	</div>
+			    </div>
+
+
+			    <div class="row product-list">
+			    
+			    	<div class="col-xs-6 col-sm-4 product-list__block">
+						<div class="product-list__item">
+							<a title="" href="#" class="">
+
+								<div class="product-list__header">
+									<span class="product-list__header--article">20.1125</span>
+									<div class="product-list__header--arrow"><i class="fa fa-chevron-right"></i></div>
+								</div>
+								<div class="product-list__img">
+									<img src="../img/temp/20.1125.jpg" alt="" class="responsive-catalogue-image">			            	
+								</div>
+								<div class="product-list__desc">HSS-XE + DURABLUE coated annular cutter with Nitto / Universal shank, using</div>
+							</a>
+
+							<div class="hoverbox">
+								<div class="product__iconlist">
+								
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+										
+								</div> 
+							</div>
+			    		</div>
+			    	</div>
+
+			    	<div class="col-xs-6 col-sm-4 product-list__block">
+						<div class="product-list__item">
+							<a title="" href="#" class="">
+								<div class="product-list__header">
+									<span class="product-list__header--article">20.1125</span>
+									<div class="product-list__header--arrow"><i class="fa fa-chevron-right"></i></div>
+								</div>
+								<div class="product-list__img">
+									<img src="../img/temp/20.1125.jpg" alt="" class="responsive-catalogue-image">			            	
+								</div>
+								<div class="product-list__desc">HSS-XE + DURABLUE coated annular cutter with Nitto / Universal shank, using</div>
+							</a>
+
+							<div class="hoverbox">
+								<div class="product__iconlist">
+								
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+										
+								</div> 
+							</div>
+			    		</div>
+			    	</div>
+
+			    	<div class="col-xs-6 col-sm-4 product-list__block">
+						<div class="product-list__item">
+							<a title="" href="#" class="">
+								<div class="product-list__header">
+									<span class="product-list__header--article">20.1125</span>
+									<div class="product-list__header--arrow"><i class="fa fa-chevron-right"></i></div>
+								</div>
+								<div class="product-list__img">
+									<img src="../img/temp/20.1125.jpg" alt="" class="responsive-catalogue-image">			            	
+								</div>
+								<div class="product-list__desc">HSS-XE + DURABLUE coated annular cutter with Nitto / Universal shank, using</div>
+							</a>
+
+							<div class="hoverbox">
+								<div class="product__iconlist">
+								
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+										
+								</div> 
+							</div>
+			    		</div>
+			    	</div>
+
+			    	<div class="col-xs-6 col-sm-4 product-list__block">
+						<div class="product-list__item">
+							<a title="" href="#" class="">
+								<div class="product-list__header">
+									<span class="product-list__header--article">20.1125</span>
+									<div class="product-list__header--arrow"><i class="fa fa-chevron-right"></i></div>
+								</div>
+								<div class="product-list__img">
+									<img src="../img/temp/20.1125.jpg" alt="" class="responsive-catalogue-image">			            	
+								</div>
+								<div class="product-list__desc">HSS-XE + DURABLUE coated annular cutter with Nitto / Universal shank, using</div>
+							</a>
+
+							<div class="hoverbox">
+								<div class="product__iconlist">
+								
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+										
+								</div> 
+							</div>
+			    		</div>
+			    	</div>
+			    	<div class="col-xs-6 col-sm-4 product-list__block">
+						<div class="product-list__item">
+							<a title="" href="#" class="">
+								<div class="product-list__header">
+									<span class="product-list__header--article">20.1125</span>
+									<div class="product-list__header--arrow"><i class="fa fa-chevron-right"></i></div>
+								</div>
+								<div class="product-list__img">
+									<img src="../img/temp/20.1125.jpg" alt="" class="responsive-catalogue-image">			            	
+								</div>
+								<div class="product-list__desc">HSS-XE + DURABLUE coated annular cutter with Nitto / Universal shank, using</div>
+							</a>
+
+							<div class="hoverbox">
+								<div class="product__iconlist">
+								
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+									<span class="iconlist__item" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+										<div class="iconlist__img">
+											<img src="../img/temp/l-stahl_kleiner_500.jpg" alt="" width="55px">
+											<img src="../img/temp/qualities-A.jpg" alt="" width="55px">
+										</div>
+									</span>
+										
+								</div> 
+							</div>
+			    		</div>
+			    	</div>
+
+
+			    </div>
+
+
+			</div>
+		
+
+		<div class="pg-sidebar col-xs-12 col-sm-12 col-md-3">
+	        	<aside class="pg-asidebar-menu">
+	           
+		    		<!-- sidebar-menu -->  
+		    		<div class="h6">Каталоги  </div>  
+		    		 	
+		    			
+		    				<nav id="submenu">
+    <ul>
+<li class="ebene1 img32" id="img32" style="background-image: url(http://shop.karnasch.de/shop/testmenu/img32.png);"><a href="http://shop.karnasch.de/shop/milling">Milling</a>
+</li>
+</ul>
+<ul>
+<li class="ebene1 img383" id="img383" style="background-image: url(http://shop.karnasch.de/shop/testmenu/img383.png);"><a href="http://shop.karnasch.de/shop/drilling">Drilling</a>
+</li>
+</ul>
+<ul>
+<li class="ebene1 img1" id="img1" style="background-image: url(http://shop.karnasch.de/shop/testmenu/img1.png);"><a href="http://shop.karnasch.de/shop/saws">Saws</a>
+</li>
+</ul>
+<ul>
+<li class="ebene1 active 3370" id="img3370"><a href="http://shop.karnasch.de/shop/reaming">Reaming</a>
+</li>
+</ul>
+<ul>
+<li class="ebene1 img28" id="img28" style="background-image: url(http://shop.karnasch.de/shop/testmenu/img28.png);"><a href="http://shop.karnasch.de/shop/composite-tools">Composite tools</a>
+</li>
+</ul>
+<ul>
+<li class="ebene1 img51" id="img51" style="background-image: url(http://shop.karnasch.de/shop/testmenu/img51.png);"><a href="http://shop.karnasch.de/shop/dental-tools">Dental tools</a>
+</li>
+</ul>
+<ul>
+<li class="ebene1 img475" id="img475" style="background-image: url(http://shop.karnasch.de/shop/testmenu/img475.png);"><a href="http://shop.karnasch.de/shop/microtools">Microtools</a>
+</li>
+</ul>
+<ul>
+<li class="ebene1 img25" id="img25" style="background-image: url(http://shop.karnasch.de/shop/testmenu/img25.png);"><a href="http://shop.karnasch.de/shop/accessory">Accessory</a>
+</li>
+</ul> 
+</nav>	
+</aside>	
+
+<!--accessories asidebar-->
+
+				<aside class="pg-asidebar-accessories">
+					<div class="h6">Акссесуары</div>
+					<div class="accessories__inline">
+
+						<div class="accessories__item">
+							<div class="accessories__item--img">
+								<a href="#"><img src="http://shop.karnasch.de/shop/images/categories/20.1427.jpg" alt="" class="img-responsive"></a>
+							</div>
+						
+							<div class="accessories__item--desc">
+								<a href="#">20.1427</a>
+								<p>Ejector pin 2-parts 7,98 x 130 mm</p>
+								<p class="desc--price">14,34 €</p>
+								<div class="accessories__item--button">
+									<a href="index.php?main_page=index&amp;cPath=10731_10797" class="ico-angle-right"></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="accessories__item">
+							<div class="accessories__item--img">
+								<a href="index.php?main_page=index&amp;cPath=10731_10797"><img src="http://shop.karnasch.de/shop/images/categories/20.1427.jpg" alt="" class="img-responsive"></a>
+							</div>
+						
+							<div class="accessories__item--desc">
+								<a href="index.php?main_page=index&amp;cPath=10731_10797">20.1427</a>
+								<p>Ejector pin 2-parts 7,98 x 130 mm</p>
+								<p class="desc--price">14,34 €</p>
+								<div class="accessories__item--button">
+									<a href="index.php?main_page=index&amp;cPath=10731_10797" class="ico-angle-right"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</aside>    			  	
+		    			  
+		    	<!-- // accessories asidebar -->
+		    		
+	  		</div>
+	  	</div>
+	</div>
+</div>
+	
+	
+	<!--footer-->
+	
+	<footer class="main-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-3 col-md-offset-9">
+	        		<div class="social-bar">
+						<span class="social-follow">Следите за нами</span>
+						<span class="social-ico">
+							<a href="" class="social-ico-fb ir">fc</a>
+							<a href="" class="social-ico-tw ir">tw</a>
+							<a href="" class="social-ico-yt ir">yt</a>
+						</span> 
+	        		</div>
+	      		</div>
+			</div>
+		</div>
+			
+			
+		<div class="main-footer__info">
+			<div class="container">
+				<div class="row">
+
+					<div class="hidden-xs col-sm-6 col-md-9 info__block">
+						<p class="info__title">ВЫСОКОТОЧНЫЙ ИНСТРУМЕНТ KARNASCH</p>  
+						<p>Karnasch Professional Tools занимается разработкой инновационного и разнообразного инструмента более 50 лет. Мы предоставляем профессиональный сервис более чем в 50 странах. Многочисленные ноу-хау, примененные в наших продуктах, используются вами при ежедневной работе. Наш инструмент, который отличается превосходными показателями производительности, используется клиентами по всему миру во всех отраслях промышленности. Постоянно внедряя инновационные технологии и новые идеи, мы позволяем Вам оставаться лидерами в будущем. Решайте Ваши задачи с наивысшей производительностью. </p>
+						<p><strong>KARNASCH — сделано для Профессионалов.</strong></p>  
+					</div>
+				
+				
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<div class="main-footer__subscribe">
+							<div class="inline">
+								<p class="subscribe__title">Подписка</p>
+								<a href="mailto:info@karnash.ru" class="subscribe-but">info@karnasch.ru</a>
+								<span class="cap"></span>
+							</div>
+						</div>
+						<div class="main-footer__hotline">
+							<div class="inline">
+		                        <p class="hotline__title">Горячая линия Karnasch</p>
+		                        <p class="hotline__number">8 800 555-26-11</p>
+		                        <p>Звонок по России бесплатный</p>
+		                        <p>Мы работаем с 8.00 - 17.00 МСК.</p>
+				            </div>
+						</div>
+						<div class="main-footer__catalog-price">
+							<div class="inline">
+				                <a class="catalog-price--ico" href="/service/karnasch-browsing-catalogues">Просмотреть печатные каталоги</a>                    
+				            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+<!--footer-menu-->
+
+		<div class="footer-menu">
+			<div class="container">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="">Главная</a></li>
+					<li><a href="">Карта сайта</a></li>
+					<li><a href="">Каталог</a></li>
+					<li><a href="">Выставки</a></li>
+					<li><a href="">О компании</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div>
+<script>
+	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+</script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="../js/scriptSlider.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/jquery.bxslider.js"></script>
+<script src="../js/jquery-scrolltofixed-min.js"></script>
+
+</body>
+</html>
